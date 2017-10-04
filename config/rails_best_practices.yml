@@ -25,7 +25,12 @@ RemoveEmptyHelpersCheck: { }
 RemoveTrailingWhitespaceCheck: { }
 RemoveUnusedMethodsInControllersCheck: {
   except_methods: [
-    "PagesController#show"
+    "PagesController#show",
+    "PasswordResetsController#create",
+    "ApplicationHelper#submit_title",
+    "UsersController#create",
+    "AdminController#admin",
+    "SessionsController#create"
   ]
 }
 RemoveUnusedMethodsInHelpersCheck: { except_methods: [] }

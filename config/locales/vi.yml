@@ -1,0 +1,130 @@
+vi:
+  title_t: "Ung dung Ruby on Rails Tutorial"
+  static_pages:
+    home:
+      title: "Trang chu"
+      content: "Day la trang chu cua"
+      content1: "huong dan Ruby on Rails"
+      content2: "ung dung don gian."
+      signup: "Dang nhap ngay"
+      alt: "Rails logo"
+    help:
+      title: "Giup do"
+      content: "Nhan giup do tai"
+      content1: "Rails Tutorial help section"
+      content2: "Nhan giup do ve trang nay, xem tai"
+      content3: "Ruby on Rails Tutorial"
+    about:
+      title: "Xem them"
+      content: "huong dan ruby on rails"
+      content1: "de day lap trinh web"
+      content2: "day la ung dung co ban cua sach"
+      n1: "la"
+      n2: "sach"
+      n3: "va"
+      n4: "loat screencast"
+      n5: "Ruby on Rails"
+      the: "the"
+    contact:
+      title: "Lien he"
+      content: "lien he chung toi tai"
+      content1: "lien he page"
+  layouts:
+    footer:
+      leftcontent: "The"
+      leftcontent1: "Ruby on Rails Tutorial"
+      leftcontent2: "boi"
+      leftcontent3: "Michael Hartl"
+      rightcontent4: "News"
+      about: "About"
+      contact: "Contact"
+    header:
+      title: "sample app"
+      home: "Trang chu"
+      help: "Giup do"
+      login: "Dang nhap"
+      user: "Users"
+      profile: "Thong tin"
+      setting: "Cat dat"
+      logout: "Dang xuat"
+      account: "Tai khoan "
+  users:
+    new:
+      title: "Dang nhap"
+      content: "Tao tai khoan"
+      name: "Ten"
+      email: "Email"
+      pass: "Mat khau"
+      confirm: "Xac nhan"
+      create: "Tao tai khoan"
+    index:
+      title: "Tat ca users"
+    edit:
+      title: "Sua user"
+      save: "Luu thay doi"
+      update: "Cap nhat thong tin cua ban"
+      submit: "Thay doi"
+    user:
+      delete: "Xoa"
+      sure: "Xac nhan xoa?"
+  application:
+    language:
+      en: "Tieng Anh"
+      vi: "Tieng Viet"
+  error:
+    form-contains: "The form contains"
+    error: "loi"
+  controller:
+    welcome: "Vui long kiem tra email de xac nhan tai khoan cua ban"
+    updated: "Profile da cap nhat"
+    deleted: "Da xoa users"
+    login_plz: "Vui long dang nhap."
+    invalid: "User invalid"
+    sessions:
+      danger: "Email hoac mat khau khong hop le"
+      not_activated: "Account not activated. "
+      check: "Check your email for the activation link."
+    activate:
+      activated: "Account activated!"
+      no_activated: "Invalid activation link"
+  sessions:
+    new:
+      title: "Dang nhap"
+      email: "Email"
+      pass: "Mat khau"
+      signup: "Dang ky ngay!"
+      newusr: "Nguoi moi?"
+      remember: "Ghi nho"
+  mailer:
+    activation:
+      title: "Sample App"
+      hi: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      active: "Activate"
+  password_resets:
+    new:
+      title: "Quen mat khau"
+      submit: "Gui cho toi"
+    edit:
+      new: "Quen mat khau"
+      title: "Reset mat khau"
+      password: "Mat khau"
+      confirm: "Xac nhan mat khau"
+      submit: "Dat lai mat khau"
+    send:
+      success: "Kiem tra email cua ban de nhan huong dan"
+      fail: "Khong tim thay email"
+    subject: "Quen mat khau"
+    reset:
+      title: "Lay lai mat khau"
+      click: "An vao link duoi day de lay lai mat khau"
+      submit: "Lay mat khau"
+      expire: "Link se het han trong 2 tieng."
+      ignore: "Neu khong phai ban yeu cau reset mat khau.
+        Bo qua email va mat khau cua ban se khong bi thay doi"
+    update:
+      success: "Mat khau da duoc thay doi thanh cong"
+      expire: "Link lay mat khau da het han."
+      blank: "khong duoc rong"
+    find:
+      fail: "Khong tim thay user"

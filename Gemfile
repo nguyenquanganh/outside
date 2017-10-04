@@ -39,7 +39,7 @@ group :development, :test do
   gem "bundler-audit"
   gem "rubocop", require: false
   gem "rubocop-checkstyle_formatter", require: false
-  gem "scss_lint"
+  gem "scss_lint", require: false
   gem "scss_lint_reporter_checkstyle", require: false
   gem "rails_best_practices"
   gem "reek"
